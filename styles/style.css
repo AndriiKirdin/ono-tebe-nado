@@ -60,3 +60,43 @@
   font-style: normal;
   display: block;
 }
+
+.cover {
+  width: 1440px;
+  height: 757px;
+  margin: auto;
+  display: grid;
+  background: url(../images/cover.jpg), lightgray 50% / cover no-repeat;
+  /* background-color: black; */
+  /* grid-template-rows: 115px 100px 100px 52px;
+  grid-template-columns: 100%; */
+}
+
+.overlay {
+  opacity: 0.6;
+  background: #000;
+}
+
+.cover__title {
+
+}
+
+.letter-spacing-extended {
+
+}
+
+.no-letter-spacing {
+
+}
+
+.cover__description {
+
+}
+
+.cover__description-text {
+
+}
+
+.bet-button {
+
+}
