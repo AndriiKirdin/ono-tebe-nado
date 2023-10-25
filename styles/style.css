@@ -1,20 +1,26 @@
 
 
 .header {
-  display: flex;
-  justify-content: space-between;
+  width: 1440px;
+  margin: auto;
+  display: grid;
+  padding: 0 50px;
+  /* background-color: rgb(87, 87, 87); */
+  grid-template: 293px / 1fr 1fr 1fr;
   align-items: center;
-  padding: 92px 50px;
 }
 
 .header__menu {
-  font-size: 18px;
+  /* background-color: rgb(145, 142, 142); */
 }
 
 .header__links-list {
   display: flex;
   flex-direction: row;
-  gap: 0px 30px;
+  gap: 0 32px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
 }
 
 .header__links-list-item {
@@ -34,22 +40,24 @@
 }
 
 .header__logo {
-  display: block;
-  padding: 0 340px 0 210px;
+  margin: auto;
+  width: 140px;
+  /* background-color: rgb(43, 43, 43); */
 }
 
 .header__logo-image {
-  width: 148px;
-  height: 105px;
+
 }
 
 .address {
-
+  display: flex;
+  justify-content: end;
+  /* background-color: rgb(159, 159, 159); */
 }
 
 .header__address {
   font-size: 18px;
-  line-height: 1.35;
   font-style: normal;
-  font-weight: 400; 
+  font-weight: 400;
+  line-height: 1.35;
 }
