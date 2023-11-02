@@ -1,10 +1,11 @@
-
-
-.header {
+.main {
   width: 1440px;
   margin: auto;
-  display: grid;
   padding: 0 50px;
+}
+
+.header {
+  display: grid;
   grid-template: 293px / 1fr 1fr 1fr;
   align-items: center;
   font-size: 18px;
@@ -142,9 +143,7 @@
 }
 
 .lots {
-  width: 1440px;
   margin: 180px auto;
-  padding: 0 50px;
   display: flex;
   flex-direction: column;
   align-content: space-between;
@@ -236,9 +235,7 @@
 }
 
 .about {
-  width: 1440px;
   margin: 180px auto;
-  padding: 0 50px;
   display: grid;
   grid-template-columns: 430px 1fr;
   align-items: flex-start;
@@ -282,8 +279,6 @@
 }
 
 .footer {
-  width: 1440px;
-  margin: auto;
   padding: 0 50px 90px 50px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
