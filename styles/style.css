@@ -1,13 +1,13 @@
-.main {
+.markup {
   width: 1440px;
   margin: auto;
-  padding: 0 50px;
 }
 
 .header {
   display: grid;
-  grid-template: 293px / 1fr 1fr 1fr;
+  grid-template-columns:  1fr 1fr 1fr;
   align-items: center;
+  padding: 91px 50px;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -15,7 +15,6 @@
 
 .header__links-list {
   display: flex;
-  flex-direction: row;
   gap: 0 32px;
 }
 
@@ -46,26 +45,25 @@
 }
 
 .address a, p {
-  font-size: 18px;
-  font-weight: 400;
   line-height: 1.35;
   font-style: normal;
-  display: block;
+  display: flex;
+  font-size: 18px;
+  font-weight: 400;
 }
 
 .cover {
   position: relative;
   display: block;
   width: 1440px;
-  height: 757px;
-  margin: auto;
+  min-height: 757px;
   background: url(../images/cover.jpg) no-repeat;
   background-size: cover;
 }
 
 .overlay {
   display: flex;
-  inset: 0 0 0 0;
+  inset: 0;
   position: absolute;
   z-index: 1;
   opacity: 0.6;
@@ -79,13 +77,13 @@
   flex-direction: column;
   padding: 165px 50px 0 50px;
   color: #FFF;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-size: 100px;
   font-style: normal;
   font-weight: 700;
   letter-spacing: 30px;
   text-transform: uppercase;
-  line-height: 1.30;
+  line-height: 1.32;
 }
 
 .letter-spacing-extended {
@@ -117,7 +115,6 @@
   display: flex;
   position: relative;
   z-index: 2;
-  flex-direction: row;
   column-gap: 77px;
   padding: 132px 50px 50px 50px;
   justify-content: end;
@@ -143,6 +140,7 @@
 
 .lots {
   margin: 180px auto;
+  padding: 0 50px;
   display: flex;
   flex-direction: column;
   align-content: space-between;
@@ -160,7 +158,7 @@
   list-style: none;
   display: flex;
   position: relative;
-  gap: 25px 25px;
+  gap: 25px;
   align-content: space-between;
   flex-flow: row wrap;
 }
@@ -212,7 +210,7 @@
   line-height: 120%;
   text-decoration-line: underline;
   text-transform: uppercase;
-  inset: 0 0 0 0;
+  inset: 0;
 }
 
 .card__text {
@@ -220,7 +218,7 @@
   font-size: 20px;
   font-weight: 400;
   line-height: 120%;
-  inset: 0 0 0 0;
+  inset: 0;
 }
 
 .lots__look-more-link {
@@ -235,6 +233,7 @@
 
 .about {
   margin: 180px auto;
+  padding: 0 50px;
   display: grid;
   grid-template-columns: 430px 1fr;
   align-items: flex-start;
@@ -265,12 +264,12 @@
   text-transform: uppercase;
 }
 
-.about__text {
+.about__paragraphs {
   display: flex;
   flex-direction: column;
   gap: 25px 0;
   color: #000;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -312,7 +311,6 @@
 
 .footer__social-list {
   display: flex;
-  flex-direction: row;
   column-gap: 48px;
   justify-content: right;
   list-style: none;
