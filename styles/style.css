@@ -40,16 +40,17 @@
 }
 
 .header__address {
-  display: flex;
-  justify-content: end;
+  margin-left: 208px;
 }
 
-.address a, p {
+.address {
+  display: grid;
+  justify-items: start;
   line-height: 1.35;
   font-style: normal;
-  display: flex;
   font-size: 18px;
   font-weight: 400;
+  max-width: 250px;
 }
 
 .cover {
